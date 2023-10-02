@@ -46,8 +46,7 @@ class MoviesController < ApplicationController
 
     # Redirect the user back to the /movies URL
   end
-
-
+  
 
   def destroy
     the_id = params.fetch("an_id")
